@@ -4,37 +4,40 @@ body{
 background-color:rgba(255,255,255,1);
 border-color:transparent !important;
 }
-
+i{
+  color: rgb(255, 150, 30);
+}
 p{
   font-size: 1.15em !important;
   text-decoration: none !important;
   }
   a{
     text-decoration: none;
+    color: rgba(225,225,25,1);
     font-size: 1em;
     }
 
     .song{
       text-decoration: none;
-      color: rgba(255,255,255,1);
+      color: rgba(225,225,25,1);
       transition: .5s;
       }
       .song:hover{
         text-decoration: none;
-        color: rgba(255,255,255,.51);
+        color: rgba(255,255,255,1);;
         transition: .5s;
         }
         .song:after{
           text-decoration: none;
-          color: rgba(255,255,255,1);
+          color: rgba(255,255,255,1);;
           transition: .5s;
           }
           .song:visited{
             text-decoration: none;
-            color: rgba(255,255,255,1);
+            color: rgba(255,255,255,1);;
             transition: .5s;
             }
       .row{
-        margin:.55rem;
+        margin:5rem;
       }
 
